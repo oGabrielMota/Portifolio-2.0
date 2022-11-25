@@ -44,6 +44,8 @@
   }
 }
 
+a { color: inherit; } 
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -211,6 +213,7 @@ body.dark-theme {
 .profile__info {
   grid-template-columns: repeat(3, max-content);
   justify-content: center;
+
   column-gap: 2.5rem;
 }
 
@@ -351,6 +354,7 @@ body.dark-theme {
 
 .projects__button {
   padding: .5rem;
+  margin-right: 5px;
 }
 
 .projects__card:hover .projects__modal {
